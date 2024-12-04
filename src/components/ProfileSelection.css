@@ -1,0 +1,113 @@
+.profile-selection-container {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.profiles-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.profile-card {
+  cursor: pointer;
+  border: 2px solid transparent;
+  padding: 10px;
+  border-radius: 8px;
+  transition: border 0.3s, transform 0.3s;
+}
+
+.profile-card.active {
+  border: 2px solid #d31c1c;
+  transform: scale(1.1);
+}
+
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profile-card p {
+  margin: 10px 0 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.profile-selection-container {
+  text-align: center;
+}
+
+.profiles-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.profile-card {
+  cursor: pointer;
+  border: 2px solid transparent;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  transition: border-color 0.3s;
+}
+
+.profile-card.active {
+  border-color: red;
+}
+
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.add-button {
+  width: 123px;
+  height: 180px;
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+  border: 2px solid red;
+  border-radius: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-button:hover {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.profile-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-profile-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-profile-button:hover {
+  background-color: darkred;
+}

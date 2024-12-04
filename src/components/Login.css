@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('https://zastavki.gas-kvas.com/uploads/posts/2024-09/zastavki-gas-kvas-com-vadz-p-zastavki-na-rabochii-stol-netfliks-7.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.login-form {
+  background: rgba(255, 255, 255, 0.388);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.login-form input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #d31c1c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-form button:hover {
+  background-color: #720e0e;
+}
+
+.toggle-button,
+.forgot-password-button {
+  margin-top: 10px;
+  background: none;
+  color: white;
+  text-decoration: underline;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.forgot-password-button:hover {
+  color: #ffebeb;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .login-form h2 {
+    font-size: 1.5rem;
+  }
+
+  .login-form button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-container {
+    padding: 10px;
+  }
+
+  .login-form {
+    padding: 15px;
+  }
+
+  .login-form input {
+    padding: 8px;
+  }
+
+  .login-form button {
+    padding: 8px;
+  }
+}
+
+  
